@@ -1,9 +1,9 @@
-#MyReads Project
+# MyReads Project
 
 This is a simple app that let's you keep updated your book readings. It shows you what you are currently reading, what you read and what you want to read.
 As a plus, it has a small database of books, if you ever want to discover more.
 
-##Install application
+## Install application
 
 In order to run the application, please follow the instructions bellow:
 - clone the project to your local machine
@@ -12,15 +12,15 @@ In order to run the application, please follow the instructions bellow:
     - `npm install --save react-router-dom`
 - from inside the folder run: `npm start` in order to run the app.
 
-##Dependencies
+## Dependencies
 
 This project was created with React JS Framework.
 
-##Backend Server
+## Backend Server
 
 The application contains a backend server in order to manage the database. If you've followed the steps above it should work just fine. Make sure to have an internet connection the first time you run it.
 
-##Using the application
+## Using the application
 
 The bookshelf has 3 categories for the books and an add new book button (on the bottom of the screen).
 You can change the book's category any time by clicking the green circle button and choosing from the drop-down the new category you want the book to be on.
@@ -31,4 +31,3 @@ The categories are:
 3. Read
 
 Enjoy
- 
