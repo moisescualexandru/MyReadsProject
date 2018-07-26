@@ -36,6 +36,9 @@ class WantToRead extends Component {
 									 (book.authors.map((author) => (
 									  <div key={author} className='book-authors'>{author}</div>
 									 )))}
+									 {book.averageRating && (
+									 <div className='book-title'>Average Rating: {book.averageRating} <span className='fa fa-star'></span></div>
+									 )}
 								</div>
 							</li>
 						))}
